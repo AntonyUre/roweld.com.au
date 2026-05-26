@@ -125,7 +125,7 @@
 
     /* ─── SECONDARY HEADER ─── */
     .secondary-header {
-      background: var(--navy);
+      background: var(--red);
       padding: 0.55rem 0;
       border-bottom: 2px solid var(--red);
     }
@@ -143,14 +143,14 @@
       flex-wrap: wrap;
     }
     .sec-info a {
-      color: #CBD5E1;
+      color: var(--white);
       font-size: 0.78rem;
       display: flex;
       align-items: center;
       gap: 0.35rem;
       transition: color var(--transition);
     }
-    .sec-info a:hover { color: var(--red); }
+    .sec-info a:hover { color: var(--light-gray); }
     .sec-info svg { width: 13px; height: 13px; fill: currentColor; flex-shrink: 0; }
     .sec-socials {
       display: flex;
@@ -1325,11 +1325,12 @@
 <nav class="primary-nav" role="navigation" aria-label="Main navigation">
   <div class="container">
     <a href="#inicio" class="nav-logo" aria-label="Rothenberger Australia Home">
-      <div class="logo-mark"><span>R</span></div>
-      <div class="logo-text">
+      <img src="./image/rothen logo.svg" alt="" style="width: 200px;">
+      <!-- <div class="logo-mark"><span>R</span></div> -->
+      <!-- <div class="logo-text">
         <strong>Rothenberger</strong>
         <small>Australia Pty Ltd</small>
-      </div>
+      </div> -->
     </a>
 
     <ul class="nav-links" role="list">
